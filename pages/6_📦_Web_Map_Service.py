@@ -22,13 +22,11 @@ def get_layers(url):
 
 
 st.title("Web Map Service (WMS)")
-st.markdown(
-    """
+st.markdown("""
 This app is a demonstration of loading Web Map Service (WMS) layers. Simply enter the URL of the WMS service
 in the text box below and press Enter to retrieve the layers. Go to https://apps.nationalmap.gov/services to find
 some WMS URLs if needed.
-"""
-)
+""")
 
 row1_col1, row1_col2 = st.columns([3, 1.3])
 width = None

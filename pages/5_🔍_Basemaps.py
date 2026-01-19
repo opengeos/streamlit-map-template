@@ -15,11 +15,9 @@ st.sidebar.image(logo)
 
 
 st.title("Searching Basemaps")
-st.markdown(
-    """
+st.markdown("""
 This app is a demonstration of searching and loading basemaps from [xyzservices](https://github.com/geopandas/xyzservices) and [Quick Map Services (QMS)](https://github.com/nextgis/quickmapservices). Selecting from 1000+ basemaps with a few clicks.
-"""
-)
+""")
 
 with st.expander("See demo"):
     st.image("https://i.imgur.com/0SkUhZh.gif")
